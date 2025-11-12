@@ -58,9 +58,3 @@ Create a release by:
 | **Major**    | `BREAKING CHANGE`         | Increments the **major** version, resets **minor** and **patch** to `0`. | Refactoring core components that are not backward compatible.    |
 | **Minor**    | `feat`                    | Increments the **minor** version, resets **patch** to `0`.               | Adding a new feature that does not break backward compatibility. |
 | **Patch**    | `fix`                     | Increments the **patch** version.                                        | Fixing bugs or making minor improvements.                        |
-
-## To do
-
-- Extend list of user removal scripts.
-  - Epic Games
-- Integrate automatic updates of scripts.
