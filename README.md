@@ -9,7 +9,7 @@ Utilising Batch and PowerShell accomplishes the goal of minimising the prerequis
 ## Features
 * A simple installation with no additional prerequisites.
 * Security enhancements to ggLeap.
-* Additional features to ggLeap, such as a auditory reminders.
+* Additional features to ggLeap, such as an auditory reminder that the establishment is closing soon.
 * Tools to simplify administrative tasks related to ggLeap, such as removing profile pictures in Windows.
 
 ## Technology stack
