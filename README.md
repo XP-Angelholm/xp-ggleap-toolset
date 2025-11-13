@@ -1,8 +1,10 @@
-# xp-toolset
+# XP toolset
 
-## Introduction
+## About
 
-This repository is a collection of simple scripts used in a local organisation called XP Ängelholm to simplify administrative tasks as well as to enhance the security of ggLeap, e.g by removing user details when a user signs out. A large quantity of the users possess limited technical abilities, therefore have certain decisions been made, such as separating tools with a simple usage and more advanced tools, such as standalone applications.
+This repository is a collection of simple scripts used in a local organisation called XP Ängelholm to simplify administrative tasks as well as to enhance the security of ggLeap, e.g by removing user details when a user signs out. A large quantity of the users possess limited technical abilities, therefore have certain decisions been made, such as separating tools with a simple usage and more advanced tools, such as standalone applications. 
+
+## Technology stack
 
 ## Scripts
 
