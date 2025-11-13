@@ -72,7 +72,7 @@ The build process is initiated by executing _build.ps1_ and the latest build is 
 #### Configuring the ggLeap client
 
 1. Follow step one to four under _How to enable and disable scripts_.
-2. Add the installation paths of all scripts to all computers, and ensure each path is consistent throughout all computers.
+2. Add the installation path of each script to all computers, and ensure each path is consistent throughout all computers.
 
 ## The release workflow
 
