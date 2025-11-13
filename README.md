@@ -79,7 +79,7 @@ The build process is initiated by executing _build.ps1_ and the latest build is 
 Create a release by:
 
 1. Create and push commits with trigger words to categorize the changes.
-2. Create a release by executing `git tag <tag to use>` and `git tag <tag to use>`.
+2. Create a release by executing `git tag <tag to use>`.
 
 | Version type | Trigger in commit message | What it updates                                                          | Example change                                                   |
 | ------------ | ------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
