@@ -16,7 +16,7 @@ _windows-profile-picture-removal_ can be used to quickly remove profile pictures
 
 ### installer-scripts
 
-The scripts found in _installer-scripts_ are used to simplify the install process for the other scripts. A seperate folder is used instead of dividing the install scripts based on usage to simplify the main install script as well as enabling individual download.
+The scripts found in _installer-scripts_ are used to simplify the install process for the other scripts. A seperate folder is used instead of dividing the install scripts based on usage to simplify the main install script as well as enabling individual downloads.
 
 ## Preparing files and installing
 
