@@ -1,4 +1,4 @@
-# XP ggLeap toolset
+# ggLeap toolset
 
 ## About
 
