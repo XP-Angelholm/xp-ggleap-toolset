@@ -2,27 +2,30 @@
 
 ## About
 
-This repository is a collection of simple scripts used in a local organisation called XP Ängelholm to simplify administrative tasks as well as to enhance the security of ggLeap, e.g by removing user details when a user signs out. A large quantity of the users possess limited technical abilities, therefore have certain decisions been made, such as separating tools with a simple usage and more advanced tools, such as standalone applications.  
+This repository is a collection of simple scripts used in a local organisation called XP Ängelholm to simplify administrative tasks as well as to enhance the security of ggLeap, e.g by removing user details when a user signs out. A large quantity of the users possess limited technical abilities, therefore have certain decisions been made, such as separating tools with a simple usage and more advanced tools, such as standalone applications.
 
-Utilising Batch and PowerShell accomplishes the goal of minimising the prerequisites due to no additional installation being required as well as simplifying the process of enabling and disabling each script through the   web interface accompanying ggLeap.
+Utilising Batch and PowerShell accomplishes the goal of minimising the prerequisites due to no additional installation being required as well as simplifying the process of enabling and disabling each script through the web interface accompanying ggLeap.
 
 ## Features
-* A simple installation with no additional prerequisites.
-* Security enhancements to ggLeap.
-* Additional features to ggLeap, such as an auditory reminder that the establishment is closing soon.
-* Tools to simplify administrative tasks related to ggLeap, such as removing profile pictures in Windows.
+
+- A simple installation with no additional prerequisites.
+- Security enhancements to ggLeap.
+- Additional features to ggLeap, such as an auditory reminder that the establishment is closing soon.
+- Tools to simplify administrative tasks related to ggLeap, such as removing profile pictures in Windows.
 
 ## Technology stack
-* PowerShell
-* Batch
+
+- PowerShell
+- Batch
 
 ## Scripts
 
 ### How to enable and disable scripts
+
 1. Open the web portal of ggLeap.
-2. Click on *Settings*.
-3. Click on *Client configuration*.
-4. Click on *Advanced*. 
+2. Click on _Settings_.
+3. Click on _Client configuration_.
+4. Click on _Advanced_.
 5. Either delete or alter the paths to become incorrect.
 
 ### user-removal
@@ -31,14 +34,15 @@ These scripts are designed to be executed during startup and deletes user inform
 
 ### windows-profile-picture-removal
 
-_windows-profile-picture-removal_ can be used to quickly remove profile pictures from computers with pictures due to people logging into Windows and Microsoft. This script can be  disabled until a profile picture is required to be deleted. Instructions on how to enable and disable can be found [here](#how-to-enable-and-disable-scripts).
+_windows-profile-picture-removal_ can be used to quickly remove profile pictures from computers with pictures due to people logging into Windows and Microsoft. This script can be disabled until a profile picture is required to be deleted. Instructions on how to enable and disable can be found [here](#how-to-enable-and-disable-scripts).
 
 ### 15-minutes-remaining-warning
-*15-minutes-remaining-warning* reminds the visitors that the establishment closes in 15 minutes by playing a sound. This script should be configured to be executed over an extended amount of time, in the web interface of ggLeap.
+
+_15-minutes-remaining-warning_ reminds the visitors that the establishment closes in 15 minutes by playing a sound. This script should be configured to be executed over an extended amount of time, in the web interface of ggLeap.
 
 ### installer-scripts
 
-The scripts found in _installer-scripts_ are used to simplify the install process for the other scripts. A seperate folder is used instead of dividing the install scripts based on usage to simplify the main install script as well as enabling individual downloads.
+The scripts found in _installer-scripts_ are used to simplify the install process for the other scripts. A separate folder is used instead of dividing the install scripts based on usage to simplify the main install script as well as enabling individual downloads.
 
 ## Preparing files and installing
 
@@ -63,13 +67,14 @@ The scripts found in _installer-scripts_ are used to simplify the install proces
 
 6. Click on _main-installer.exe_.
 
-#### Installing each script seperately
+#### Installing each script separately
 
 6. Open _installer-scripts_.
-7. Click on each file seperately.
+7. Click on each file separately.
 
 #### Configuring the ggLeap client
-1. Follow step one to four under *How to enable and disable scripts*.
+
+1. Follow step one to four under _How to enable and disable scripts_.
 2. Add the installation paths of all scripts, and ensure each path is consistent throughout all computers.
 
 ## The release workflow
