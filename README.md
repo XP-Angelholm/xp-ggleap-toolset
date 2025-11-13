@@ -9,7 +9,8 @@ Utilising Batch and PowerShell accomplishes the goal of minimising the prerequis
 ## Features
 * A simple installation with no additional prerequisites.
 * Security enhancements to ggLeap.
-* Tools to simplify administrative tasks related to ggLeap.
+* Additional features to ggLeap, such as a auditory reminders.
+* Tools to simplify administrative tasks related to ggLeap, such as removing profile pictures in Windows.
 
 ## Technology stack
 * PowerShell
@@ -17,13 +18,15 @@ Utilising Batch and PowerShell accomplishes the goal of minimising the prerequis
 
 ## Scripts
 
+### How to enable and disable scripts
+
 ### user-removal
 
 These scripts are designed to be executed during startup and deletes user information to forcefully logout users of applications not affected by a similar process done by ggLeap.
 
 ### windows-profile-picture-removal
 
-_windows-profile-picture-removal_ can be used to quickly remove profile pictures from computers with pictures due to people logging into Windows and Microsoft.
+_windows-profile-picture-removal_ can be used to quickly remove profile pictures from computers with pictures due to people logging into Windows and Microsoft. This script can be  disabled until a profile picture is required to be deleted. Instructions on how to enable and disable can be found [here](###how-to-enable-and-disable-scripts).
 
 ### installer-scripts
 
