@@ -71,16 +71,15 @@ The build process is initiated by executing _build.ps1_ and the latest build is 
 8. Click on each file separately.
 
 #### Configuring the ggLeap client
+
 1. Follow step one to four under _How to enable and disable scripts_.
 2. Add the installation path of each script to all computers, and ensure each path is consistent throughout all computers.
 
 ## The release workflow
 
-Create a release by:
-
-1. Create a commit, starting with any of the keywords found below and adhering to this pattern `<the desired keyword>: <the commit message>`.
+1. The process of creating a release is initiated by creating a commit, starting with any of the keywords found below and adhering to this pattern `<the desired keyword>: <the commit message>`.
 2. Execute `git tag v<the version number>`.
-3. Execute `git push <the name of the remote> <the version number>`.
+3. The final step is to execute `git push <the name of the remote> <the version number>`.
 
 | Version type | Trigger in commit message | What it updates                                                          | Example change                                                   |
 | ------------ | ------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
