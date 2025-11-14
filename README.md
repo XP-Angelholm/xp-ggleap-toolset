@@ -77,9 +77,11 @@ The build process is initiated by executing _build.ps1_ and the latest build is 
 
 ## The release workflow
 
-1. The process of creating a release is initiated by creating a commit, starting with any of the keywords found below and adhering to this pattern `<the desired keyword>: <the commit message>`.
+A release is created by following these steps:
+
+1. Create a commit, starting with any of the keywords found below and adhering to this pattern `<the desired keyword>: <the commit message>`.
 2. Execute `git tag v<the version number>`.
-3. The final step is to execute `git push <the name of the remote> <the version number>`.
+3. Execute `git push <the name of the remote> <the version number>`.
 
 | Version type | Trigger in commit message | What it updates                                                          | Example change                                                   |
 | ------------ | ------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
