@@ -44,7 +44,7 @@ _15-minutes-remaining-warning_ reminds the visitors that the establishment close
 
 The scripts found in _installer-scripts_ are used to simplify the install process for the other scripts. A separate folder is used instead of dividing the install scripts based on usage to simplify the main install script as well as enabling individual downloads.
 
-## Preparing files and installing
+## The build and installation process
 
 ### Creating a build
 
